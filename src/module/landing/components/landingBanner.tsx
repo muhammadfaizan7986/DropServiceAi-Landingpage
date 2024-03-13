@@ -4,20 +4,20 @@ import Image from "next/image";
 const LandingBanner = () => {
   return (
     <div
-      className="w-[100%] h-[100vh] flex items-center flex-col font-anton relative"
+      className="banner-bg w-[100%] h-[100vh] flex items-center flex-col "
       style={{
         backgroundImage: 'url("./images/BG.jpg")',
         backgroundSize: "cover",
       }}
     >
-      <div className=" w-[620px] mt-[83px] text-center">
-        <h1 className="font-bold text-5xl  ">
+      <div className=" w-[700px] mt-[83px] text-center">
+        <h1 className=" text-6xl font-anton leading-tight">
           Build A Profitable
           <span className="text-[#5AFFE3]"> Drop Servicing Business</span>{" "}
           Faster
         </h1>
         <div>
-          <p className="font-semibold tracking-tight text-[17px] mt-3">
+          <p className="font-semibold tracking-wide text-[18px] mt-3 leading-tight">
             Building, automating and scaling your Drop Servicing business is now
             95% easier and faster with the first AI powered software for Drop
             Servicing agency owners.
@@ -35,7 +35,7 @@ const LandingBanner = () => {
           GET STARTED 👉
         </button>
       </div>
-      <div className="absolute top-[62vh]">
+      <div className="mt-14 ">
         <Image
           className="rounded-2xl"
           src="/images/banner.png"

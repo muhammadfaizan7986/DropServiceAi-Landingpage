@@ -1,5 +1,5 @@
 import React from "react";
-import Group from "@/components/landingPage-Icons/Group";
+import Group from "@/components/Icons/Group";
 type Props = {};
 
 const Header = (props: Props) => {
